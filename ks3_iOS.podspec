@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
    spec.homepage     = "https://github.com/ks3sdk/ks3-ios-sdk"
    spec.author       = { "ksyun" => "ksyun.com"  }
    spec.platform     = :ios, '8.0'
-
+   spec.dependency 'ks3_iOS', :git=> 'https://github.com/Noiled/ks3_iOS.git'
    spec.public_header_files = 'Framework/DynamicFramework/KS3YunSDK.framework/Headers'
    spec.vendored_frameworks = 'Framework/DynamicFramework/KS3YunSDK.framework'
    
