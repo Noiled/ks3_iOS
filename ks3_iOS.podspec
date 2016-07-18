@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
    spec.name         = "ks3_iOS"
    spec.summary      = "ks3 ios sdk"
-   spec.version      = "1.5.1"
+   spec.version      = "1.7.0"
    spec.license      = "Copyright 2016 kingsoft Ltd. All rights reserved"
    spec.source       = { :git => "https://github.com/ks3sdk/ks3-ios-sdk.git", :tag => "v1.5.1"}
    spec.homepage     = "https://github.com/ks3sdk/ks3-ios-sdk"
